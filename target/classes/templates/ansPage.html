@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" xmlns:th="">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Приветсвие!, Приветсвие!, Приветсвие!, Приветсвие!">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>ansPage</title>
+    <link rel="stylesheet" href="mainAns.css" media="screen">
+    <link rel="stylesheet" href="ansPage.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jqueryAns.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepageAns.js" defer=""></script>
+    <link id="u-theme-google-font" rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+
+
+    <script type="application/ld+json">{
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "",
+        "logo": "images/FindYourself.png"
+    }</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="ansPage">
+    <meta property="og:type" content="website">
+</head>
+<body class="u-body">
+<section class="u-clearfix u-section-1" id="sec-edc7">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <img class="u-image u-image-default u-image-1" src="images/authback.png" alt="" data-image-width="1080"
+             data-image-height="660">
+        <h4 class="u-text u-text-custom-color-1 u-text-default u-text-1">Жооптору</h4>
+        <h2 class="u-text u-text-default u-text-2" th:text="${greeting} + '!'"></h2>
+        <h2 class="u-text u-text-default u-text-3" th:text="${prof} + '!'"></h2>
+        <h2 class="u-text u-text-default u-text-4" th:text="${univer} + '!'"></h2>
+        <h2 class="u-text u-text-default u-text-5" th:text="${course} + '!'"></h2>
+        <a href="/" class="u-border-none u-btn u-button-style u-hover-palette-1-dark-1 u-palette-5-base u-btn-1">башкы
+            бет -&gt;</a>
+    </div>
+</section>
+
+</body>
+</html>
